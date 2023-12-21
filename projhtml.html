@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Travel Landing Page </title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" href="need1.css">
+    </head>
+      <body>
+        <section class="showcase">
+            <header>
+              <h2 class="logo">Stock Market</h2>
+              <div class="toggle">Options</div>
+            </header>
+            <video src="C:\Users\Shaik Aswia Simeen\OneDrive\Desktop\Flipr\video.02" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+              
+              <h2>Exploring</h2>
+              <br>
+              <h3>The Trends</h3>
+              <br>
+              <h3>Of the World</h3>
+            </div>
+            
+          </section>
+        <div class="menu">
+            <ul>
+              <li><a href="logproj.html">Login</a></li>
+              <br>
+              <br>
+              <li><a href="regproj.html">Register</a></li>
+            </ul>
+          </div>
+          <script>
+          const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+      </script>
+      </body>
+</html>

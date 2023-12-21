@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+  
+}
+
+input[type=text], input[type=password] {
+  width: 300px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: red;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.signupbtn{
+
+ padding: 14px 20px;
+  background-color: #04AA6D;
+}
+
+.cancelbtn, .signupbtn {
+  border-radius: 75%;
+}
+
+
+.container {
+  padding: 16px;
+}
+p{
+  color: #ddd;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a:link {
+  text-decoration: none;
+  color: #ddd;
+}
+
+a:visited {
+  text-decoration: none;color: #ddd;
+}
+
+a:hover {
+  text-decoration: none;color: #ddd;
+}
+
+a:active {
+  text-decoration: none;color: #ddd;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: auto;
+  }
+}
+body{
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    }
+form {
+  border: 3px inset #f1f1f1;
+  width: 500px;
+  background-color: rgb(0, 0, 102);
+  border-radius: 25px;
+
+}
+label{
+  color: whitesmoke;
+  text-align: left;
+  font-size: medium;
+}
+header{
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 20px;
+}
+</style>
+<body>
+<center>
+    
+    <h3 align="center">New To the world of Stock Market</h3>
+    <h4>Come join us</h4>
+    <h4>Dive into the world of ups and Downs</h4>
+    
+    <form >
+      <header><b>Registration form</b></header>
+      <hr>
+      <br>
+        <label for="Name"><b>Name</b></label><br>
+        <input type="text" placeholder="Enter Name" name="name" id="name" required>
+        <br>
+        <label for ="email"><b>Email Id</b></label><br>
+        <input type="text" placeholder="Enter email id" name="email" id="email" required>
+        <br>
+        <label for ="Phone number"><b>Phone number</b></label><br>
+        <input type="text" placeholder="Enter phone number" name="Phone number" id="phone-number" required>
+        <br>
+        <label for="gender"><b>Gender</b></label><br> <br>
+        
+        <input type="radio" id="Male" name="gender" value="Male">
+  <label for="gender">Male</label><br>
+  <input type="radio" id="Female" name="gender" value="Female">
+  <label for="gender">Female</label><br>
+  <input type="radio" id="Others" name="gender" value="Others">
+  <label for="gender">Others</label>
+        </select>
+        <br> <br>
+        <label for="age"><b>Age</b></label><br>
+        <input type="text" placeholder="Enter your age" name="age" id="age" required>
+        <br>
+
+        <label for ="password"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter password" name="psw" id="psw" required>
+        <br>
+        <label for ="retype-psw"><b>Re-enter Password</b></label><br>
+        <input type="password" placeholder="Re-enter your password" name="retype-psw" id="retype-psw" required>
+        <br>
+    <label>
+      <input type="checkbox"  name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+<br>
+
+    <div class="clearfix">
+      <a href="projhtml.html"button type="button" class="cancelbtn">Cancel</button></a>
+        <a href="logproj.html"  button type="submit" class="signupbtn">Sign Up</button></a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+</form>
+
+</center>
+</body>
+</html>
